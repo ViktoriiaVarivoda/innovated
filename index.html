@@ -4,125 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;600&family=Poppins:wght@400;500&display=swap"
         rel="stylesheet">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Innovated</title>
 </head>
 <body>
-    <header>
-        <a href="">
+    <header class="header">
+        <a href="" class="header-logo">
             <img src="./images/logo.svg" alt="site logo" />
         </a>
-        <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Reviews</a></li>
+        <nav class="header-nav">
+        <ul class="header-list list">
+            <li class="header-list__item"><a href="" class="header-list__link link current">Home</a></li>
+            <li class="header-list__item"><a href="" class="header-list__link link">About</a></li>
+            <li class="header-list__item"><a href="" class="header-list__link link">Services</a></li>
+            <li class="header-list__item"><a href="" class="header-list__link link">Reviews</a></li>
         </ul>
         </nav>
-        <button type="button">Get started</button>
+        <button type="button" class="header-btn btn">Get started</button>
     </header>
 
-    <main>
-        <section>
-            <p>Digtal business</p>
-            <h1>Our job help you to make a Brand.</h1>
-            <button type="button">Get started</button>
-            <p>Play video</p>
+    <main class="main">
+        <section class="hero">
+            <p class="hero-second-text second-text">Digtal business</p>
+            <h1 class="hero-title">Our job help you to make a Brand.</h1>
+            <button type="button" class="hero-btn btn">Get started</button>
+            <p class="hero-bottom-text">Play video</p>
         </section>
 
-        <section>
-            <p>Community</p>
-            <h2>Platfrom dedicated to promoting</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <section class="community">
+            <p class="community-second-text second-text">Community</p>
+            <h2 class="community-title title">Platfrom dedicated to promoting</h2>
+            <p class="community-bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Arcu eget augue arcu gravida. Laoreet eget aliquet consequat.</p>
-            <button type="button">What we do</button>
+            <button type="button" class="community-btn btn">What we do</button>
         </section>
 
-        <section>
-            <h2>How we work</h2>
-            <ul>
-                <li>
-                    <h3>Start Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <section class="work">
+            <h2 class="work-title title">How we work</h2>
+            <ul class="work-list list">
+                <li class="work-list__item">
+                    <h3 class="work-list__subtitle">Start Design</h3>
+                    <p class="work-list__top-text top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Arcu eget augue arcu gravida.</p>
                 </li>
-                <li>
-                    <h3>Go to code</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <li class="work-list__item">
+                    <h3 class="work-list__subtitle">Go to code</h3>
+                    <p class="work-list__top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Arcu eget augue arcu gravida.</p>
                 </li>
-                <li>
-                    <h3>Final deliverd</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <li class="work-list__item">
+                    <h3 class="work-list__subtitle">Final deliverd</h3>
+                    <p class="work-list__top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Arcu eget augue arcu gravida.</p>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>What our customar are saying</h2>
-            <ul>
-                <li>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <section class="customer">
+            <h2 class="customer-title title">What our customar are saying</h2>
+            <ul class="customer-list">
+                <li class="customer-list__item">
+                    <p class="customer-list__top-text top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc tristique ipsum ultrices sit rutrum lobortis. Ipsum, nulla
                     nam.
                     </p>
-                    <p>Elon Musk</p>
-                    <p>CEO</p>
+                    <h3 class="customer-list__subtitle">Elon Musk</h3>
+                    <p class="customer-list__bottom-text">CEO</p>
                 </li>
-                <li>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <li class="customer-list__item">
+                    <p class="customer-list__top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Nunc tristique ipsum ultrices sit rutrum lobortis. Ipsum, nulla
                     nam.
                     </p>
-                    <p>Easin Arafat</p>
-                    <p>Product Design</p>
+                    <h3 class="customer-list__subtitle">Easin Arafat</h3>
+                    <p class="customer-list__bottom-text">Product Design</p>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <h2>Sign up to our Newsletter</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <section class="newsletter">
+            <h2 class="newsletter-title title">Sign up to our Newsletter</h2>
+            <p class="newsletter-top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Eu sagittis, Atiam lorem sed justo amet viverra in a.
             </p>
-            <button type="button">Send</button>
+            <button type="button" class="newsletter-btn btn">Send</button>
         </section>
     </main>
 
-    <footer>
-        <a href="">
-            <img src="./images/logo.svg" alt="site logo" />
+    <footer class="footer">
+        <a href="" class="footer-link">
+            <img src="./images/logo.svg" alt="site logo" class="footer-link__img"/>
         </a>
-        <p>
+        <p class="footer-top-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Cursus lacus mi mauris sem. Id vulputate sapien.
         </p>
-        <ul>
-            <li>
-                <p>Home</p>
-                    <li>
-                        <p>Accessibility</p>
-                        <p>Lertifiotion</p>
-                        <p>Knowledge</p>
+        <ul class="footer-list list">
+            <li class="footer-list__item">
+                <p class="footer-list__top-text">Home</p>
+                    <li class="footer-list-item">
+                        <p class="footer-list-item__bottom-text">Accessibility</p>
+                        <p class="footer-list-item__bottom-text">Lertifiotion</p>
+                        <p class="footer-list-item__bottom-text">Knowledge</p>
                     </li>
             </li>
-            <li>
-                <p>Pages<p>
-                    <li>
-                        <p>Blogs</p>
-                        <p>Careers</p>
-                        <p>Communing</p>
+            <li class="footer-list__item">
+                <p class="footer-list__top-text top-text">Pages<p>
+                    <li class="footer-list-item">
+                        <p class="footer-list-item__bottom-text">Blogs</p>
+                        <p class="footer-list-item__bottom-text">Careers</p>
+                        <p class="footer-list-item__bottom-text">Communing</p>
                 </li>
             </li>
-            <li>
-                <p>Contact us</p>
-                <a href="mailto:@shovasatkhira88.com">@shovasatkhira88.com</a>
+            <li class="footer-list__item">
+                <p class="footer-list__top-text">Contact us</p>
+                <a href="mailto:@shovasatkhira88.com" class="footer-list__link">@shovasatkhira88.com</a>
             </li>
         </ul>
     </footer>

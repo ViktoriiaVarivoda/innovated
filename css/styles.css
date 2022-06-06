@@ -1,2 +1,184 @@
+:root {
+--header-color: #171832;
+
+}
+
 body {
     font-family: Poppins, Tahoma, sans-serif;
+}
+
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+margin: 0;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.top-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--header-color);
+    opacity: 0.7;
+}
+
+.second-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2D74FF;
+    opacity: 0.7;
+}
+
+.title {
+    font-family: 'Gelasio';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.41;
+    color: var(--header-color);
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    background: #2D74FF;
+    border-radius: 5px;
+    border: none;
+}
+
+/*-------header-------*/
+
+.header-list__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    color: var(--header-color);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.header-list__link:hover,
+.header-list__link:focus {
+    color: #2D74FF;
+}
+
+/*------hero-----*/
+
+.hero-title{
+    font-family: 'Gelasio';
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 1.19;
+    color: var(--header-color);
+}
+
+.hero-bottom-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--header-color);
+    opacity: 0.7;
+}
+
+/*-------community-----*/
+
+.community-bottom-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--header-color);
+    opacity: 0.7;
+}
+
+/*------work-----*/
+
+.work-list__subtitle{
+    font-family: 'Gelasio';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--header-color);
+    opacity: 0.7;
+}
+
+/*------customer----*/
+
+.customer-list__subtitle{
+    font-family: 'Gelasio';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.42;
+    color: var(--header-color);
+    opacity: 0.7;
+}
+
+.customer-list__bottom-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--header-color);
+    opacity: 0.7;
+}
+
+/*-----------newsletter-----*/
+
+.newsletter-top-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+    opacity: 0.7;
+}
+
+/*------footer-----*/
+
+.footer-list__item{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--header-color);
+}
+
+.footer-list-item__bottom-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--header-color);
+    opacity: 0.7;
+}
+
+.footer-list__link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.06em;
+    color: var(--header-color);
+    opacity: 0.7;
+}
