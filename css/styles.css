@@ -113,6 +113,7 @@ button {
     line-height: 1.19;
     color: var(--header-color);
     margin-bottom: 40px;
+    max-width: 519px;
 }
 
 .hero-bottom-text{
@@ -131,6 +132,7 @@ button {
 
 .community-title{
     margin-bottom: 25px;
+    max-width: 292px;
 }
 
 .community-bottom-text{
@@ -140,12 +142,14 @@ button {
     color: var(--header-color);
     opacity: 0.7;
     margin-bottom: 40px;
+    max-width: 423px;
 }
 
 /*------work-----*/
 
 .work-title{
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .work-list__subtitle{
@@ -158,10 +162,18 @@ button {
     margin-bottom: 15px;
 }
 
+.work-list__top-text{
+    max-width: 315px;
+}
+
 /*------customer----*/
 
 .customer-title{
     margin-bottom: 70px;
+}
+.customer-list__top-text{
+    max-width: 391px;
+    margin-bottom: 44px;
 }
 
 .customer-list__subtitle{
@@ -171,6 +183,7 @@ button {
     line-height: 1.42;
     color: var(--header-color);
     opacity: 0.7;
+    margin-bottom: 10px;
 }
 
 .customer-list__bottom-text{
@@ -183,8 +196,14 @@ button {
 
 /*-----------newsletter-----*/
 
+.newsletter{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
 .newsletter-title{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .newsletter-top-text{
@@ -193,9 +212,20 @@ button {
     line-height: 1.5;
     color: #000000;
     opacity: 0.7;
+    margin-bottom: 42px;
+    max-width: 626px;
 }
 
+.newsletter-btn{
+    margin-bottom: 75px;
+}
 /*------footer-----*/
+
+.footer{
+    padding-top: 97px;
+    padding-bottom: 151px;
+    background-color: #F3F5F9;
+}
 
 .footer-list__item{
     font-weight: 500;
@@ -210,6 +240,7 @@ button {
     line-height: 1.5;
     color: var(--header-color);
     opacity: 0.7;
+    margin-bottom: 20px;
 }
 
 .footer-list__link{
@@ -225,14 +256,23 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
-    color: #171832;
+    color: var(--header-color);
     margin-bottom: 30px;
 }
 
 .footer-top-text{
+    margin-bottom: 14px;
+    max-width: 366px;
+}
+
+.footer-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
-    color: #171832;
+    color: var(--header-color);
     margin-bottom: 14px;
+}
+
+.footer-list-item{
+   
 }
