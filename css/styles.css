@@ -202,6 +202,7 @@ button {
 .work-list{
     display: flex;
     margin-bottom: 154px;
+    justify-content: center;
 }
 
 .work-list__subtitle{
@@ -212,6 +213,7 @@ button {
     color: var(--header-color);
     opacity: 0.7;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .work-list__link{
@@ -220,10 +222,16 @@ button {
     background-color: #F4F4F4;
     border-radius: 50%;
     display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
 }
+
 
 .work-list__top-text{
     max-width: 315px;
+    padding-bottom: 23px;
 }
 
 .work-list__item{
@@ -231,16 +239,16 @@ button {
     opacity: 0.7;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-top: 15px;
-    padding-bottom: 23px;
     text-align: center;
     }
 
     .work-list__item:not(:last-child) {
         margin-right: 30px;
     }
+
+    /* .work-list__icon{
+        background-image: url(../images/Group.svg);
+    } */
 
 /*------customer----*/
 
