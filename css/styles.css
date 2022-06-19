@@ -23,17 +23,6 @@ ol {
     margin: 0;
 }
 
-.current {
-    color: #2D74FF;
-}
-
-.current::after {
-    content: '';
-    display: block;
-    width: 74px;
-    height: 0px;
-   border: 2px solid #2D74FF;
-}
 
 button {
     cursor: pointer;
@@ -132,6 +121,19 @@ button {
 
 .header-btn{
     margin-left: auto;
+}
+
+.current {
+    color: #2D74FF;
+}
+
+.current::after {
+    content: '';
+    display: block;
+    width: 74px;
+    height: 0px;
+    border: 1px solid #2D74FF;
+    border-radius: 2px;
 }
 
 /*------hero-----*/
