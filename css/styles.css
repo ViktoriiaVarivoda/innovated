@@ -30,12 +30,9 @@ ol {
 .current::after {
     content: '';
     display: block;
-    width: 100%;
-    height: 4px;
-    position: absolute;
-    bottom: -1px;
-    background: var(--accent-color);
-    border-radius: 2px;
+    width: 74px;
+    height: 0px;
+   border: 2px solid #2D74FF;
 }
 
 button {
@@ -105,7 +102,6 @@ button {
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header-list__link {
@@ -130,6 +126,14 @@ button {
     margin-right: 40px;
 }
 
+.header-logo{
+    margin-right: 120px;
+}
+
+.header-btn{
+    margin-left: auto;
+}
+
 /*------hero-----*/
 
 .hero{
@@ -148,6 +152,9 @@ button {
     color: var(--header-color);
     margin-bottom: 40px;
     max-width: 519px;
+}
+.hero-title-two{
+    color: #2D74FF;
 }
 
 .hero-bottom-text{
@@ -200,14 +207,15 @@ button {
     line-height: 1.5;
     color: var(--header-color);
     opacity: 0.7;
-    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 .work-list__link{
     width: 100px;
     height: 100px;
-    background: #F4F4F4;
+    background-color: #F4F4F4;
     border-radius: 50%;
+    display: flex;
 }
 
 .work-list__top-text{
@@ -215,13 +223,13 @@ button {
 }
 
 .work-list__item{
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     opacity: 0.7;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding-left: 23px;
     padding-right: 23px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 23px;
     text-align: center;
     }
@@ -235,6 +243,19 @@ button {
 .customer-title{
     margin-bottom: 70px;
 }
+
+.customer-list{
+    display: flex;
+}
+
+.customer-list__item{
+    background-color: #FFFFFF;
+        box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.03);
+        border-radius: 10px;
+        border: black;
+        width: 50%;
+}
+
 .customer-list__top-text{
     max-width: 391px;
     margin-bottom: 44px;
@@ -337,6 +358,3 @@ button {
     margin-bottom: 14px;
 }
 
-.footer-list-item{
-   
-}
